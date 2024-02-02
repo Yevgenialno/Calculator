@@ -1,0 +1,1 @@
+export type HtmlElementClickEvent = MouseEvent & { target: HTMLElement };

@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "module": "es6",
+    "target": "es2022",
+    "jsx": "react",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "downlevelIteration": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@services/*": ["Services/*"],
+      "@operations/*": ["Services/Solver/Operations/*"],
+      "@stringMethods/*": ["View/StringMethods/*"],
+      "@handlers/*": ["View/handlers/*"],
+    },
+  },
+  "include": [
+    "src/**/*"
+  ],
+}
